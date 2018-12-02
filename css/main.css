@@ -143,14 +143,14 @@ h1 {
 }
 
 
-/* Dual Content Container with Carousel Block*/
+/* Dual Content Container */
 .dual-content-container {
   display: flex;
-  height: 41em;
   position: relative;
 }
 
-.text-block, .carousel-block {
+/* Text Block */
+.text-block, .carousel-block, .img-block {
   flex: 1;
 }
 
@@ -158,10 +158,16 @@ h1 {
   display: flex;
 }
 
-.text-block .center {
+.text-block .text-inset {
   margin: auto;
   padding: 0 7em 0 5em;
 }
+
+/* Carousel Block */
+.carousel-container{
+  height: 41em;
+}
+
 
 .carousel-block {
   background-image: radial-gradient(#383838, #151515);
@@ -189,7 +195,10 @@ h1 {
   font-weight: 300;
 }
 
-
+/* Img Block */
+.img-block img {
+  width: 100%;
+}
 
 
 
