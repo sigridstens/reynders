@@ -96,6 +96,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.55;
+}
+
+p {
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #ff133c;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+}
+
 h1 {
   display: none;
 }
@@ -109,8 +143,51 @@ h1 {
 }
 
 
+/* Dual Content Container with Carousel Block*/
+.dual-content-container {
+  display: flex;
+  height: 41em;
+  position: relative;
+}
 
+.text-block, .carousel-block {
+  flex: 1;
+}
 
+.text-block {
+  display: flex;
+}
+
+.text-block .center {
+  margin: auto;
+  padding: 0 7em 0 5em;
+}
+
+.carousel-block {
+  background-image: radial-gradient(#383838, #151515);
+  z-index: -20;
+}
+
+.carousel-block .carousel-image {
+  z-index: 10;
+  position: absolute;
+  right: 18%;
+  top: 50%;
+  transform: translate(-18%,-50%);
+  height: 77%;
+}
+
+.carousel-block .carousel-caption {
+  border: .5em solid #ff314c;
+  padding: .9em 12em .9em 3em;
+  position: absolute;
+  top: 59%;
+  left: 47%;
+  z-index: -10;
+  color: white;
+  font-size: .95em;
+  font-weight: 300;
+}
 
 
 
