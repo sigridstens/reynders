@@ -161,6 +161,7 @@ nav ul{
 .hero {
   background-color: #ececeb;
   position: relative;
+  height: 43em;
 }
 
 .hero .text-container {
@@ -168,8 +169,49 @@ nav ul{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  width: 38%;
+  text-align: center;
 }
 
+.hero h2 {
+  font-size: 3.15em;
+}
+
+.hero .img {
+  position: absolute;
+  }
+
+.hero .glass {
+  top: 4em;
+  left: 43%;
+  transform: translateX(-43%);
+  width: 17em;
+}
+
+.hero .packet {
+  top: 5.5em;
+  right: 6%;
+  width: 17em;
+}
+
+.hero .travelsize {
+  bottom: 0;
+  right: 6%;
+  width: 18em;
+}
+
+.hero .wine {
+  bottom: 0;
+  left: 25%;
+  width: 8em;
+}
+
+.hero .metal {
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  width: 9em;
+}
 /* Dual Content Container */
 .dual-content-container {
   display: flex;
