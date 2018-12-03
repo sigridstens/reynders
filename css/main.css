@@ -131,9 +131,7 @@ a {
   font-weight: 600;
 }
 
-img {
-  width: 100%;
-}
+
 
 h1 {
   display: none;
@@ -210,6 +208,30 @@ nav ul{
   font-weight: 300;
 }
 
+/* Hero Carousel Section*/
+.carousel-hero {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-hero figure {
+  margin: 0;
+}
+
+.carousel-hero img {
+  width: 100%;
+}
+
+.carousel-hero figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
 /* Img Block */
 .img-block img {
   width: 100%;
@@ -240,6 +262,10 @@ nav ul{
 .blog-section p {
   font-weight: 300;
   font-size: .95em;
+}
+
+.blog-section img {
+  width: 100%;
 }
 
 .blog-section .col-container {
