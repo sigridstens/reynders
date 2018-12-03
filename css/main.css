@@ -117,7 +117,7 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: #ff133c;
+  color: #ff2940;
   line-height: 1;
   font-weight: 700;
 }
@@ -131,7 +131,9 @@ a {
   font-weight: 600;
 }
 
-
+h5 {
+  display: none;
+}
 
 h1 {
   display: none;
@@ -155,6 +157,18 @@ nav ul{
   padding: 0;
 }
 
+/* Hero Section */
+.hero {
+  background-color: #ececeb;
+  position: relative;
+}
+
+.hero .text-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /* Dual Content Container */
 .dual-content-container {
@@ -197,7 +211,7 @@ nav ul{
 }
 
 .carousel-block .carousel-caption {
-  border: .5em solid #ff314c;
+  border: .5em solid #ff2940;
   padding: .9em 12em .9em 3em;
   position: absolute;
   top: 59%;
@@ -210,12 +224,12 @@ nav ul{
 
 /* Hero Carousel Section*/
 .carousel-hero {
-  position: relative;
   width: 100%;
   margin: 0;
 }
 
-.carousel-hero figure {
+.carousel-hero .hero-container {
+  position: relative;
   margin: 0;
 }
 
@@ -228,6 +242,11 @@ nav ul{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  background-color: white;
+  border: .35em solid #ff2940;
+  padding: .5em 2em;
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
 
@@ -239,7 +258,7 @@ nav ul{
 
 /* Blog Section */
 .blog-section {
-  background: #ef343e;
+  background: #ff2940;
   color: white;
   padding: 1em 8.1em;
   text-align: center;
@@ -283,17 +302,18 @@ nav ul{
   margin: auto;
 }
 
-.blog-section button {
+.blog-section .button {
   color: white;
   border: .175em solid white;
   background: none;
   padding: .45em 2em;
-  margin: 1em 0 2.5em 0;
+  margin: 1em auto 2.5em auto;
   font-weight: 300;
   font-size: 1em;
+  width: fit-content;
  }
 
-.blog-section button a {
+.blog-section .button a {
   color: white;
   text-decoration: none;
   font-weight: normal;
@@ -324,7 +344,7 @@ form p {
 }
 
 form input, form select {
-  background-color: #ef343e;
+  background-color: #ff2940;
   border: none;
   width: fit-content;
   padding: .1em .4em;
