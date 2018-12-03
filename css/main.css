@@ -277,7 +277,86 @@ nav ul{
 /* Contact Section */
 .contact-section {
   background: #ececeb;
+  margin: 0;
+  text-align: center;
+  padding: 3em 0;
+}
 
+.contact-section h2 {
+  font-size: 3.25em;
+  margin: .6em auto .3em auto;
+  width: 20%;
+
+}
+
+form {
+  font-size: 2em;
+}
+
+form p {
+  margin: .15em;
+}
+
+form input, form select {
+  background-color: #ef343e;
+  border: none;
+  width: fit-content;
+  padding: .1em .4em;
+}
+
+form select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: white;
+}
+
+form ::placeholder  {
+  color: white;
+}
+
+form input[type="tel"] {
+  display: none;
+}
+
+form textarea {
+  border: none;
+  margin: 1em;
+}
+
+form textarea::placeholder {
+  color: black;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.data-policy {
+  width: 32%;
+  margin: auto;
+  font-size: 1rem;
+  display: flex;
+  text-align: left;
+}
+
+.data-policy input[type="checkbox"] {
+  margin: .35em;
+}
+
+.data-policy a {
+  font-weight: 400;
+}
+
+input[type="submit"] {
+  border: .175em solid black;
+  background: none;
+  padding: .6em 4em;
+  margin: 1em 0 2.5em 0;
+  font-size: 1.1rem;
+}
+
+.contact {
+  width: 78%;
+  margin: auto;
 }
 
 /* Footer Nav */
