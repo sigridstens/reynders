@@ -105,7 +105,27 @@ html {
 }
 
 /* Global Styles */
+<<<<<<< HEAD
 body {
+<<<<<<< HEAD
+  position: relative;
+}
+
+.hover:hover {
+  color: black;
+  background-color: rgba(255, 255, 0, 0.43);
+}
+
+/* Header Section */
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+
+}
+=======
   font-family: proxima-nova, sans-serif;
   font-size: 1.15em;
   line-height: 1.55;
@@ -579,13 +599,126 @@ input[type="submit"] {
   font-size: 1.1em;
 }
 
+>>>>>>> parent of 6a14d4b... initial commit
+
+header {
+  position: absolute;
+  top: 1.5em;
+  left: 3em;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  color: #ffff00;
+}
+=======
+
+>>>>>>> parent of 894bc6f... Added styling for background and header and added desk clutter.
+
+
+<<<<<<< HEAD
+.monitor {
+  width: 37em;
+  left: 4em;
+  top: 12em;
+}
+
+.computer {
+  width: 27em;
+  left: 41.5em;
+  top: 17em;
+}
+
+.wacom {
+  width: 27em;
+<<<<<<< HEAD
+  left: 22em;
+  top: 18em;
+<<<<<<< HEAD
+  z-index: 1;
+=======
+  left: 21.5em;
+  top: 17em;
+  z-index: -9;
+>>>>>>> parent of 2b073eb... Added and placed more desk clutter, including business cards and illustrations
+=======
+  z-index: -9;
+>>>>>>> parent of d24ebe1... Added more clutter
+}
+
+.writing-tools {
+  width: 9em;
+<<<<<<< HEAD
+  left: 95em;
+  top: 40em;
+}
+
+.wacom-pen {
+  width: 5em;
+  left: 50em;
+  top: 35em;
+}
+=======
 
 
 
 
+>>>>>>> parent of 894bc6f... Added styling for background and header and added desk clutter.
 
+.planner {
+  width: 20em;
+  left: 5em;
+  top: 35em;
+}
 
+.books {
+  width: 17em;
+  left: 85em;
+  top: 5em;
+}
 
+.mug {
+  width: 7em;
+  left: 10em;
+=======
+  left: 90em;
+>>>>>>> parent of 2b073eb... Added and placed more desk clutter, including business cards and illustrations
+  top: 25em;
+}
+
+.wacom-pen {
+  width: 6em;
+<<<<<<< HEAD
+  left: 21.5em;
+  top: 52em;
+  z-index: 1;
+}
+
+.csa {
+  width: 20em;
+  left: 80em;
+<<<<<<< HEAD
+  top: 28em;
+  z-index: 1;
+}
+
+.multiculturalism {
+  width: 20em;
+  left: 64em;
+  top: 3em;
+}
+
+.museumtickets {
+  width: 5em;
+  left: 35em;
+  top: 21em;
+=======
+  left: 50em;
+  top: 32em;
+>>>>>>> parent of 2b073eb... Added and placed more desk clutter, including business cards and illustrations
+=======
+  top: 25em;
+  z-index: -1;
+>>>>>>> parent of d24ebe1... Added more clutter
+}
 
 
 
