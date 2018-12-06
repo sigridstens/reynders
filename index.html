@@ -25,13 +25,13 @@
   <!-- Add your site or application content here -->
   <header>
     <h1>Reynders</h1>
-    <img src="img/logo-reynders.png" alt="logo" class="white-background">
-    <img src="img/logo-reynders-white.png" alt="logo" class="colored-background">
+    <img src="img/logo-reynders.png" alt="logo" class="white-background logo">
+    <img src="img/logo-reynders-white.png" alt="logo" class="colored-background logo">
 
     <nav class="main-header-nav">
-      <ul>
+      <ul class="main-nav">
         <li>markets
-          <ul>
+          <ul class="sub-nav positionnine">
             <li><a href="https://www.reynders.com/en/markets/pharmaceutical">pharmaceutical</a></li>
             <li><a href="https://www.reynders.com/en/markets/cosmetics">cosmetics</a></li>
             <li><a href="https://www.reynders.com/en/markets/food">food</a></li>
@@ -43,7 +43,7 @@
           </ul>
         </li>
         <li>products
-          <ul>
+          <ul class="sub-nav positioneight">
             <li><a href="https://www.reynders.com/en/products/self-adhesive-labels">self-adhesive labels</a></li>
 
             <li><a href="https://www.reynders.com/en/products/shrink-sleeves">sleeves</a></li>
@@ -59,20 +59,20 @@
         <li><a href="https://www.reynders.com/en/about-us">about us</a></li>
         <li><a href="https://www.reynders.com/en/contact">contact</a></li>
         <li>EN
-          <ul>
+          <ul class="sub-nav positiontwo">
             <li>NL</li>
             <li>FR</li>
             <li>DE</li>
             <li>PL</li>
           </ul>
         </li>
+        <li><i class="fas fa-bars nav-icon"></i></li>
       </ul>
     </nav>
-
-    <i class="fas fa-bars"></i>
   </header>
 
   <nav class="modal-nav">
+    <i class="fas fa-times close-icon"></i>
     <div class="col">
       <h2>markets</h2>
       <ul>
@@ -109,7 +109,7 @@
   <section class="header-carousel">
     <h5>Header Carousel</h5>
     <article>
-      <img src="img/red-carousel.png" alt="Bottle touch">
+      <img class="header-float-img" src="img/red-carousel.png" alt="Bottle touch">
       <div class="carousel-text">
         <h2>label printing specialists</h2>
         <p>with a personal touch</p>
@@ -117,7 +117,7 @@
     </article>
 
     <article>
-      <img src="img/white-carousel.png" alt="Gloved touch">
+      <img class="header-float-img" src="img/white-carousel.png" alt="Gloved touch">
       <div class="carousel-text">
         <h2>your pharma labels are safe with us</h2>
         <p>a personal kind of care</p>
@@ -125,7 +125,7 @@
     </article>
 
     <article>
-      <img src="img/officebuilding.png" alt="HQ office">
+      <img class="header-splash" src="img/officebuilding.png" alt="HQ office">
       <div class="carousel-text">
         <h2>different goals</h2>
         <p>different labels</p>
@@ -289,7 +289,7 @@
       <p>
         <label for="email">at</label>
         <input type="email" name="email" id="email" placeholder="my e-mail address">
-        <input type="tel" name="tel" id="tel">
+        <input type="tel" name="tel" id="tel" placeholder="(612) 777-4044">
       </p>
 
       <textarea name="message" id="message" rows="4" cols="30" placeholder="add a message"></textarea>

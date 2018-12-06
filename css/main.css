@@ -135,18 +135,6 @@ h5 {
   display: none;
 }
 
-h1 {
-  display: none;
-}
-
-.white-backround {
-  display: none;
-}
-
-.modal-nav {
-  display: none;
-}
-
 nav a {
   text-decoration: none;
   font-weight: 300;
@@ -155,7 +143,115 @@ nav a {
 nav ul{
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
+/* Header Navigation Section */
+
+h1 {
+  display: none;
+}
+
+.logo {
+  position: absolute;
+  top: 1.75em;
+  left: 1.75em;
+  width: 5em;
+}
+
+.main-header-nav i {
+  font-size: 1.75em;
+}
+
+.white-background {
+  display: none;
+}
+
+header {
+  background-color: #e33a40;
+}
+
+nav {
+  font-size: .8em;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 1em;
+}
+
+.main-nav li {
+  padding: 1em;
+}
+
+.sub-nav {
+  display: none;
+}
+
+.sub-nav li {
+  padding: .25em 0;
+}
+
+.main-nav li:hover .sub-nav {
+  display: block;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.main-nav li:hover .positiontwo {
+  transform: translateX(15%);
+}
+
+.main-nav li:hover .positionnine {
+  transform: translateX(-33.5%);
+}
+
+.main-nav li:hover .positioneight {
+  transform: translateX(-25%);
+}
+
+
+/* Header Carousel Section */
+.header-carousel {
+  background-color: #e33a40;
+  position: relative;
+  height: 30em;
+  text-align: center;
+}
+
+.header-carousel h2 {
+  color: white;
+}
+
+.header-float-img {
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-splash {
+  width: 100%;
+  position: relative;
+  display: none;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.modal-nav {
+  display: none;
+}
+
 
 /* Hero Section */
 .hero {
@@ -482,7 +578,6 @@ input[type="submit"] {
   font-weight: 600;
   font-size: 1.1em;
 }
-
 
 
 
