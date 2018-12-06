@@ -114,15 +114,16 @@ body {
 .hover:hover {
   color: black;
   background-color: rgba(255, 255, 0, 0.43);
-  text-decoration: underline;
 }
 
 /* Header Section */
 
-body {
-  background-image: url("../img/wood.jpg");
+.background-img {
+  position: absolute;
   top: 0;
   left: 0;
+  z-index: -10;
+
 }
 =======
   font-family: proxima-nova, sans-serif;
@@ -522,16 +523,12 @@ header {
   width: 37em;
   left: 4em;
   top: 12em;
-  z-index: 3;
-
 }
 
 .computer {
   width: 27em;
   left: 41.5em;
   top: 17em;
-  z-index: 2;
-
 }
 
 .wacom {
@@ -539,12 +536,16 @@ header {
 <<<<<<< HEAD
   left: 22em;
   top: 18em;
+<<<<<<< HEAD
   z-index: 1;
 =======
   left: 21.5em;
   top: 17em;
   z-index: -9;
 >>>>>>> parent of 2b073eb... Added and placed more desk clutter, including business cards and illustrations
+=======
+  z-index: -9;
+>>>>>>> parent of d24ebe1... Added more clutter
 }
 
 .writing-tools {
@@ -552,7 +553,6 @@ header {
 <<<<<<< HEAD
   left: 95em;
   top: 40em;
-  z-index: 10;
 }
 
 .wacom-pen {
@@ -574,7 +574,7 @@ header {
 }
 
 .books {
-  width: 15em;
+  width: 17em;
   left: 85em;
   top: 5em;
 }
@@ -598,14 +598,8 @@ header {
 
 .csa {
   width: 20em;
-  left: 75em;
-  top: 35em;
-  z-index: 2;
-}
-
-.valentines {
-  width: 20em;
   left: 80em;
+<<<<<<< HEAD
   top: 28em;
   z-index: 1;
 }
@@ -624,6 +618,10 @@ header {
   left: 50em;
   top: 32em;
 >>>>>>> parent of 2b073eb... Added and placed more desk clutter, including business cards and illustrations
+=======
+  top: 25em;
+  z-index: -1;
+>>>>>>> parent of d24ebe1... Added more clutter
 }
 
 
