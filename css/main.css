@@ -105,6 +105,7 @@ html {
 }
 
 /* Global Styles */
+<<<<<<< HEAD
 body {
 <<<<<<< HEAD
   position: relative;
@@ -511,12 +512,12 @@ header {
   font-size: 2em;
   color: #ffff00;
 }
+=======
 
-/* Desk items */
-.absolute-position {
-  position: absolute;
-}
+>>>>>>> parent of 894bc6f... Added styling for background and header and added desk clutter.
 
+
+<<<<<<< HEAD
 .monitor {
   width: 37em;
   left: 4em;
@@ -552,6 +553,12 @@ header {
   left: 50em;
   top: 35em;
 }
+=======
+
+
+
+
+>>>>>>> parent of 894bc6f... Added styling for background and header and added desk clutter.
 
 .planner {
   width: 20em;
