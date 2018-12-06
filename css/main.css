@@ -105,13 +105,69 @@ html {
 }
 
 /* Global Styles */
+body {
+  position: relative;
+}
 
+.hover:hover {
+  color: black;
+  background-color: rgba(255, 255, 0, 0.43);
+}
 
+/* Header Section */
 
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
 
+}
 
+header {
+  position: absolute;
+  top: 1.5em;
+  left: 3em;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  color: #ffff00;
+}
 
+/* Desk items */
+.absolute-position {
+  position: absolute;
+}
 
+.monitor {
+  width: 37em;
+  left: 4em;
+  top: 12em;
+}
+
+.computer {
+  width: 27em;
+  left: 41.5em;
+  top: 17em;
+}
+
+.wacom {
+  width: 27em;
+  left: 21.5em;
+  top: 17em;
+  z-index: -9;
+}
+
+.writing-tools {
+  width: 9em;
+  left: 90em;
+  top: 25em;
+}
+
+.wacom-pen {
+  width: 6em;
+  left: 50em;
+  top: 32em;
+}
 
 
 
