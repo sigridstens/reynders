@@ -106,6 +106,7 @@ html {
 
 /* Global Styles */
 body {
+<<<<<<< HEAD
   position: relative;
 }
 
@@ -122,6 +123,385 @@ body {
   top: 0;
   left: 0;
 }
+=======
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.55;
+}
+
+p {
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #ff2940;
+  line-height: 1;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+a {
+  color: black;
+  font-weight: 600;
+}
+
+h5 {
+  display: none;
+}
+
+h1 {
+  display: none;
+}
+
+.white-backround {
+  display: none;
+}
+
+.modal-nav {
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #ececeb;
+  position: relative;
+  height: 43em;
+}
+
+.hero .text-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3.15em;
+}
+
+.hero .img {
+  position: absolute;
+  }
+
+.hero .glass {
+  top: 4em;
+  left: 43%;
+  transform: translateX(-43%);
+  width: 17em;
+}
+
+.hero .packet {
+  top: 5.5em;
+  right: 6%;
+  width: 17em;
+}
+
+.hero .travelsize {
+  bottom: 0;
+  right: 6%;
+  width: 18em;
+}
+
+.hero .wine {
+  bottom: 0;
+  left: 25%;
+  width: 8em;
+}
+
+.hero .metal {
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  width: 9em;
+}
+/* Dual Content Container */
+.dual-content-container {
+  display: flex;
+  position: relative;
+}
+
+/* Text Block */
+.text-block, .carousel-block, .img-block {
+  flex: 1;
+}
+
+.text-block {
+  display: flex;
+}
+
+.text-block .text-inset {
+  margin: auto;
+  padding: 0 7em 0 5em;
+}
+
+/* Carousel Block */
+.carousel-container{
+  height: 41em;
+}
+
+
+.carousel-block {
+  background-image: radial-gradient(#383838, #151515);
+  z-index: -20;
+}
+
+.carousel-block .carousel-image {
+  z-index: 10;
+  position: absolute;
+  right: 18%;
+  top: 50%;
+  transform: translate(-18%,-50%);
+  height: 77%;
+}
+
+.carousel-block .carousel-caption {
+  border: .5em solid #ff2940;
+  padding: .9em 12em .9em 3em;
+  position: absolute;
+  top: 59%;
+  left: 47%;
+  z-index: -10;
+  color: white;
+  font-size: .95em;
+  font-weight: 300;
+}
+
+/* Hero Carousel Section*/
+.carousel-hero {
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-hero .hero-container {
+  position: relative;
+  margin: 0;
+}
+
+.carousel-hero img {
+  width: 100%;
+}
+
+.carousel-hero figcaption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  border: .35em solid #ff2940;
+  padding: .5em 2em;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+
+
+/* Img Block */
+.img-block img {
+  width: 100%;
+}
+
+/* Blog Section */
+.blog-section {
+  background: #ff2940;
+  color: white;
+  padding: 1em 8.1em;
+  text-align: center;
+}
+
+.blog-section h2,h3 {
+  color: white;
+}
+
+.blog-section h2 {
+  font-size: 3.25em;
+  margin: .6em 0 .3em 0;
+}
+
+.blog-section h3 {
+  font-size: 1.35em;
+  margin: 1.3em 0 .7em 0;
+}
+
+.blog-section p {
+  font-weight: 300;
+  font-size: .95em;
+}
+
+.blog-section img {
+  width: 100%;
+}
+
+.blog-section .col-container {
+  display: flex;
+}
+
+.blog-section .col-container .col {
+  flex-basis: 33%;
+  padding: .55em;
+
+}
+
+.blog-section .text-container {
+  width: 78%;
+  margin: auto;
+}
+
+.blog-section .button {
+  color: white;
+  border: .175em solid white;
+  background: none;
+  padding: .45em 2em;
+  margin: 1em auto 2.5em auto;
+  font-weight: 300;
+  font-size: 1em;
+  width: fit-content;
+ }
+
+.blog-section .button a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+/* Contact Section */
+.contact-section {
+  background: #ececeb;
+  margin: 0;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.contact-section h2 {
+  font-size: 3.25em;
+  margin: .6em auto .3em auto;
+  width: 20%;
+
+}
+
+form {
+  font-size: 2em;
+}
+
+form p {
+  margin: .15em;
+}
+
+form input, form select {
+  background-color: #ff2940;
+  border: none;
+  width: fit-content;
+  padding: .1em .4em;
+}
+
+form select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  color: white;
+}
+
+form ::placeholder  {
+  color: white;
+}
+
+form input[type="tel"] {
+  display: none;
+}
+
+form textarea {
+  border: none;
+  margin: 1em;
+}
+
+form textarea::placeholder {
+  color: black;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.data-policy {
+  width: 32%;
+  margin: auto;
+  font-size: 1rem;
+  display: flex;
+  text-align: left;
+}
+
+.data-policy input[type="checkbox"] {
+  margin: .35em;
+}
+
+.data-policy a {
+  font-weight: 400;
+}
+
+input[type="submit"] {
+  border: .175em solid black;
+  background: none;
+  padding: .6em 4em;
+  margin: 1em 0 2.5em 0;
+  font-size: 1.1rem;
+}
+
+.contact {
+  width: 78%;
+  margin: auto;
+}
+
+/* Footer Nav */
+.footer-nav {
+  background-color: #202020;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.25em 9em;
+  font-size: .83em;
+  line-height: 2;
+}
+
+.footer-nav h2 {
+  color: white;
+  font-size: 1.3em;
+}
+
+.footer-nav a {
+  color: white;
+}
+
+.footer-nav ul ul {
+  padding-left: 1em;
+}
+
+.footer-nav .first-order {
+  padding-bottom: 1.3em;
+  line-height: 2.1;
+
+}
+
+.footer-nav .first-order a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+>>>>>>> parent of 6a14d4b... initial commit
 
 header {
   position: absolute;
