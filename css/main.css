@@ -112,16 +112,15 @@ body {
 .hover:hover {
   color: black;
   background-color: rgba(255, 255, 0, 0.43);
+  text-decoration: underline;
 }
 
 /* Header Section */
 
-.background-img {
-  position: absolute;
+body {
+  background-image: url("../img/wood.jpg");
   top: 0;
   left: 0;
-  z-index: -10;
-
 }
 
 header {
@@ -142,25 +141,30 @@ header {
   width: 37em;
   left: 4em;
   top: 12em;
+  z-index: 3;
+
 }
 
 .computer {
   width: 30em;
   left: 41.5em;
   top: 17em;
+  z-index: 2;
+
 }
 
 .wacom {
   width: 27em;
   left: 22em;
   top: 18em;
-  z-index: -9;
+  z-index: 1;
 }
 
 .writing-tools {
   width: 9em;
   left: 95em;
   top: 40em;
+  z-index: 10;
 }
 
 .wacom-pen {
@@ -176,7 +180,7 @@ header {
 }
 
 .books {
-  width: 17em;
+  width: 15em;
   left: 85em;
   top: 5em;
 }
@@ -211,9 +215,28 @@ header {
 
 .csa {
   width: 20em;
+  left: 75em;
+  top: 35em;
+  z-index: 2;
+}
+
+.valentines {
+  width: 20em;
   left: 80em;
-  top: 25em;
-  z-index: -1;
+  top: 28em;
+  z-index: 1;
+}
+
+.multiculturalism {
+  width: 20em;
+  left: 64em;
+  top: 3em;
+}
+
+.museumtickets {
+  width: 5em;
+  left: 35em;
+  top: 21em;
 }
 
 
