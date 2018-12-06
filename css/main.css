@@ -145,29 +145,77 @@ header {
 }
 
 .computer {
-  width: 27em;
+  width: 30em;
   left: 41.5em;
   top: 17em;
 }
 
 .wacom {
   width: 27em;
-  left: 21.5em;
-  top: 17em;
+  left: 22em;
+  top: 18em;
   z-index: -9;
 }
 
 .writing-tools {
   width: 9em;
-  left: 90em;
-  top: 25em;
+  left: 95em;
+  top: 40em;
 }
 
 .wacom-pen {
-  width: 6em;
+  width: 5em;
   left: 50em;
-  top: 32em;
+  top: 35em;
 }
+
+.planner {
+  width: 20em;
+  left: 5em;
+  top: 35em;
+}
+
+.books {
+  width: 17em;
+  left: 85em;
+  top: 5em;
+}
+
+.mug {
+  width: 7em;
+  left: 10em;
+  top: 25em;
+}
+
+.thinc {
+  width: 6em;
+  left: 27em;
+  top: 47.5em;
+  z-index: 2;
+}
+
+.oneohsixgroup {
+  width: 6em;
+
+  left: 25em;
+  top: 50em;
+  z-index: 3;
+}
+
+.split-rock {
+  width: 6em;
+  left: 21.5em;
+  top: 52em;
+  z-index: 1;
+}
+
+.csa {
+  width: 20em;
+  left: 80em;
+  top: 25em;
+  z-index: -1;
+}
+
 
 
 
