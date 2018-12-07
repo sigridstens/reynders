@@ -146,6 +146,7 @@ nav ul{
   margin: 0;
 }
 
+
 .three-column-nav {
   display: flex;
   justify-content: space-between;
@@ -185,7 +186,13 @@ h1 {
 }
 
 header {
-  background-color: #e33a40;
+  background-color: #e32a2f;
+  height: 100vh;
+  color: white;
+}
+
+header a {
+  color: white;
 }
 
 nav {
@@ -205,6 +212,11 @@ nav {
 
 .sub-nav {
   display: none;
+  color: black;
+}
+
+.sub-nav a {
+  color: black;
 }
 
 .sub-nav li {
@@ -214,23 +226,97 @@ nav {
 .main-nav li:hover .sub-nav {
   display: block;
   position: absolute;
-  margin: 0;
+  margin: 1em 0 0 0;
   text-align: center;
   z-index: 10;
+  background-color: #ECECEB;
+  border-radius: .25em;
+  padding: 1em 3em;
+}
+
+.main-nav li:hover .sub-nav::before {
+  content: '';
+  display: block;
+  border: .5rem solid transparent;
+  border-bottom-color: #ECECEB;
+  position: absolute;
+  left: 50%;
+  top: -.5em;
+  transform: translateY(-50%);
 }
 
 .main-nav li:hover .positiontwo {
-  transform: translateX(15%);
+  transform: translateX(-50%);
 }
 
 .main-nav li:hover .positionnine {
-  transform: translateX(-33.5%);
+  transform: translateX(-43%);
 }
 
 .main-nav li:hover .positioneight {
-  transform: translateX(-25%);
+  transform: translateX(-40%);
 }
 
+.scroll-button {
+  color: white;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.scroll-button p {
+  margin: 0;
+}
+
+/* Header Carousel Section */
+.header-carousel {
+  background-color: #e32a2f;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.carousel-text h2, .carousel-text p {
+  color: white;
+  margin: 0;
+}
+
+.carousel-text h2 {
+  font-size: 1.5em;
+}
+
+.header-float-img {
+  width: 39.5%;
+  position: absolute;
+  right: 0;
+  top: 47%;
+  transform: translateY(-50%);
+}
+
+.header-splash {
+  position: relative;
+  display: none;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%,-43%);
+  border: .4em solid white;
+  padding: 1em 1.75em;
+}
+
+.white, .photo {
+  display: none;
+}
 
 /* Modal nav section*/
 .close-icon {
@@ -269,7 +355,7 @@ nav {
 }
 
 .modal-nav .first-order a, .modal-nav h2 {
-  color: red;
+  color: #e32a2f;
   font-size: 1.4em;
   font-weight: 800;
   line-height: 1.75;
@@ -281,7 +367,7 @@ nav {
   font-size:.8em;
 }
 
-.modal-nav a:after {
+.modal-nav a::after {
   content: '';
   display: block;
   position: relative;
@@ -289,51 +375,14 @@ nav {
   background: black;
   height: .1em;
   width: 0;
-  transition: width .3s;
+  transition: width .2s;
 }
 
-.modal-nav a:hover:after {
+.modal-nav a:hover::after {
   width: 100%;
 }
 
 .modal-nav {
-  display: none;
-}
-/* Header Carousel Section */
-.header-carousel {
-  background-color: #e33a40;
-  position: relative;
-  height: 30em;
-  text-align: center;
-}
-
-.header-carousel h2 {
-  color: white;
-}
-
-.header-float-img {
-  width: 35%;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.header-splash {
-  width: 100%;
-  position: relative;
-  display: none;
-}
-
-.carousel-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-
-}
-
-.white, .photo {
   display: none;
 }
 
@@ -624,19 +673,21 @@ input[type="submit"] {
 }
 
 .contact {
-  width: 78%;
+  max-width: 48em;
   margin: auto;
 }
 
 /* Footer Nav */
-.footer-nav {
+footer {
+  width: 100%;
   background-color: #202020;
+}
+
+.footer-nav {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 2.25em 9em;
-  font-size: .83em;
   line-height: 2;
+  width: 84%;
+  margin: auto;
 }
 
 .footer-nav h2 {
@@ -652,22 +703,9 @@ input[type="submit"] {
   padding-left: 1em;
 }
 
-.footer-nav .first-order {
-  padding-bottom: 1.3em;
-  line-height: 2.1;
-
-}
-
 .footer-nav .first-order a {
-  font-style: normal;
-  font-weight: 600;
   font-size: 1.1em;
 }
-
-
-
-
-
 
 
 
