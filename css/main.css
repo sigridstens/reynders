@@ -520,6 +520,14 @@ nav {
   margin: 0;
 }
 
+.hero-container  {
+  display: none;
+}
+
+.one {
+  display: block;
+}
+
 .carousel-hero img {
   width: 100%;
 }
