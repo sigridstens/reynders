@@ -145,6 +145,24 @@ nav ul{
   padding: 0;
   margin: 0;
 }
+
+.three-column-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.25em 9em;
+  font-size: .83em;
+}
+
+.three-column-nav .first-order {
+  padding-bottom: 1.3em;
+  line-height: 2.1;
+
+}
+
+.three-column-nav .first-order a {
+  font-style: normal;
+  font-weight: 600;
+}
 /* Header Navigation Section */
 
 h1 {
@@ -213,6 +231,70 @@ nav {
   transform: translateX(-25%);
 }
 
+
+/* Modal nav section*/
+.close-icon {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.modal-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.93);
+  font-size: 1.4em;
+  line-height: 1.5;
+}
+.modal-nav a {
+  font-weight: normal;
+}
+
+.modal-nav ul ul {
+  font-size: .8em;
+  line-height: 1.7;
+  padding: 0 1.75em;
+}
+
+.center-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 98%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-nav .first-order a, .modal-nav h2 {
+  color: red;
+  font-size: 1.4em;
+  font-weight: 800;
+  line-height: 1.75;
+  margin: 0 0 .4em 0;
+}
+
+
+.modal-nav .second-order {
+  font-size:.8em;
+}
+
+.modal-nav a:after {
+  content: '';
+  display: block;
+  position: relative;
+  top: -0.2em;
+  background: black;
+  height: .1em;
+  width: 0;
+  transition: width .3s;
+}
+
+.modal-nav a:hover:after {
+  width: 100%;
+}
 
 /* Header Carousel Section */
 .header-carousel {

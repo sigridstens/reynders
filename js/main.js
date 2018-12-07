@@ -12,7 +12,7 @@ navButton.addEventListener('click', function() {
   console.log('open sesame!!!');
 
   if (modalNav !== null) {
-    modalNav.style.display = "block";
+    modalNav.style.display = "flex";
   }
 
 });
