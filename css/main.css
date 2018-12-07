@@ -257,6 +257,21 @@ nav {
   transform: translateX(-40%);
 }
 
+.main-nav .sub-nav a::after {
+  content: '';
+  display: block;
+  position: relative;
+  top: -0.2em;
+  background: red;
+  height: .1em;
+  width: 0;
+  transition: width .2s;
+}
+
+.main-nav .sub-nav a:hover::after {
+  width: 100%;
+}
+
 .scroll-button {
   color: white;
   font-weight: 400;

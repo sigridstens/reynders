@@ -4,8 +4,6 @@
     <list default="true" id="b3c85c72-a639-48e0-b7dd-e45a3786a493" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,33 +37,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8164" />
-          <entry key="html" value="5078" />
-          <entry key="js" value="255" />
-          <entry key="txt" value="67" />
+          <entry key="css" value="9537" />
+          <entry key="html" value="5222" />
+          <entry key="js" value="308" />
+          <entry key="txt" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8164" />
-          <entry key="HTML" value="5078" />
-          <entry key="JavaScript" value="255" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="CSS" value="9537" />
+          <entry key="HTML" value="5222" />
+          <entry key="JavaScript" value="308" />
+          <entry key="PLAIN_TEXT" value="164" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4028708">
+    <splitter split-orientation="horizontal" split-proportion="0.5904306">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.7767945">
+        <splitter split-orientation="vertical" split-proportion="0.5998033">
           <split-first>
             <leaf>
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="111">
-                      <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+                    <state relative-caret-position="195">
+                      <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
                     </state>
                   </provider>
                 </entry>
@@ -77,8 +75,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/js/main.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-92">
-                      <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+                    <state relative-caret-position="240">
+                      <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
                     </state>
                   </provider>
                 </entry>
@@ -92,8 +90,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="536">
-                  <caret line="296" column="1" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
+                <state relative-caret-position="741">
+                  <caret line="271" column="14" lean-forward="true" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -129,9 +127,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/testing.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -142,10 +140,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-360" />
+    <option name="x" value="-438" />
     <option name="y" value="-1417" />
     <option name="width" value="1087" />
-    <option name="height" value="1027" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -320,7 +318,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543547168204</updated>
-      <workItem from="1543547169603" duration="44667000" />
+      <workItem from="1543547169603" duration="52268000" />
     </task>
     <task id="LOCAL-00001" summary="Removing css added from other project. Mixing up repo css removed.">
       <created>1544110960795</created>
@@ -329,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544110960795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Restyled header. Styled hover effects for sub-nav dropdowns.">
+      <created>1544160225879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544160225879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44667000" />
+    <option name="totallyTimeSpent" value="52268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,15 +350,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-360" y="-1417" width="1087" height="1027" extended-state="0" />
+    <frame x="-438" y="-1417" width="1087" height="1417" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
       <window_info content_ui="combo" id="Project" order="2" weight="0.1171404" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23245282" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32830188" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
@@ -361,7 +367,7 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3290566" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -414,7 +420,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Removing css added from other project. Mixing up repo css removed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing css added from other project. Mixing up repo css removed." />
+    <MESSAGE value="Restyled header. Styled hover effects for sub-nav dropdowns." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restyled header. Styled hover effects for sub-nav dropdowns." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/testing.html">
@@ -436,24 +443,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="296" column="1" selection-start-line="296" selection-start-column="1" selection-end-line="296" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+        <state relative-caret-position="741">
+          <caret line="271" column="14" lean-forward="true" selection-start-line="271" selection-start-column="14" selection-end-line="271" selection-end-column="14" />
         </state>
       </provider>
     </entry>
