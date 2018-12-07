@@ -296,6 +296,9 @@ nav {
   width: 100%;
 }
 
+.modal-nav {
+  display: none;
+}
 /* Header Carousel Section */
 .header-carousel {
   background-color: #e33a40;
@@ -330,7 +333,7 @@ nav {
 
 }
 
-.modal-nav {
+.white, .photo {
   display: none;
 }
 
