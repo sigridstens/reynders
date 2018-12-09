@@ -406,20 +406,22 @@ nav {
 .hero {
   background-color: #ececeb;
   position: relative;
-  height: 43em;
+  height: 60em;
 }
 
 .hero .text-container {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 47.5%;
   transform: translate(-50%, -50%);
-  width: 38%;
+  width: 40%;
   text-align: center;
 }
 
 .hero h2 {
-  font-size: 3.15em;
+  font-size: 4.5em;
+  line-height: .9em;
+  margin: .6em 0;
 }
 
 .hero .img {
@@ -427,35 +429,35 @@ nav {
 }
 
 .hero .glass {
-  top: 4em;
+  top: 4.5em;
   left: 43%;
   transform: translateX(-43%);
-  width: 17em;
+  width: 23em;
 }
 
 .hero .packet {
-  top: 5.5em;
+  top: 7em;
   right: 6%;
-  width: 17em;
+  width: 24em;
 }
 
 .hero .travelsize {
   bottom: 0;
-  right: 6%;
-  width: 18em;
+  right: 5%;
+  width: 25.5em;
 }
 
 .hero .wine {
   bottom: 0;
-  left: 25%;
-  width: 8em;
+  left: 28%;
+  width: 11em;
 }
 
 .hero .metal {
-  top: 50%;
-  left: 10%;
+  top: 57%;
+  left: 12%;
   transform: translateY(-50%);
-  width: 9em;
+  width: 11.5em;
 }
 /* Dual Content Container */
 .dual-content-container {
@@ -466,6 +468,7 @@ nav {
 /* Text Block */
 .text-block, .carousel-block, .img-block {
   flex: 1;
+  position: relative;
 }
 
 .text-block {
@@ -474,7 +477,18 @@ nav {
 
 .text-block .text-inset {
   margin: auto;
-  padding: 0 7em 0 5em;
+  padding: 0 6em 0 4em;
+}
+
+.text-inset h2{
+  font-size: 2.6em;
+  margin: .6em 0;
+}
+
+.carousel-count {
+  position: absolute;
+  bottom: 2em;
+  right: .5em;
 }
 
 /* Carousel Block */
@@ -491,18 +505,18 @@ nav {
 .carousel-block .carousel-image {
   z-index: 10;
   position: absolute;
-  right: 18%;
-  top: 50%;
+  right: 17.5%;
+  top: 48%;
   transform: translate(-18%,-50%);
-  height: 77%;
+  height: 78%;
 }
 
 .carousel-block .carousel-caption {
   border: .5em solid #ff2940;
   padding: .9em 12em .9em 3em;
   position: absolute;
-  top: 59%;
-  left: 47%;
+  top: 61%;
+  left: -7%;
   z-index: -10;
   color: white;
   font-size: .95em;
@@ -730,6 +744,41 @@ footer {
   font-size: 1.1em;
 }
 
+
+
+@media screen and (max-width: 1020px)
+/* For smaller screens */
+{
+  .hero .glass {
+    top: 4em;
+    left: 30%;
+    transform: translateX(-43%);
+    width: 25em;
+  }
+
+  .hero .packet, .hero .wine, .hero .metal {
+    display: none;
+  }
+
+  .hero .travelsize {
+    bottom: 0;
+    right: 6%;
+    width: 18em;
+  }
+
+  .hero .wine {
+    bottom: 0;
+    left: 25%;
+    width: 8em;
+  }
+
+  .hero .metal {
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 9em;
+  }
+}
 
 
 
