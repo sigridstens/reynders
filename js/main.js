@@ -28,3 +28,9 @@ closeButton.addEventListener('click', function() {
 
 });
 
+$(".scroll-button").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".hero").offset().top},
+    'slow');
+});
+
